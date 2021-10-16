@@ -1,28 +1,35 @@
 h1 {
-  color: blue;
-  background-color: blanchedalmond;
+  color: rgb(251, 251, 255);
+  background-color: rgb(105, 104, 102);
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-p {
-  color: chartreuse;
-  text-align: left;
-  column-count: 2;
-  column-gap: 50px;
-}
-ul {
-  border-bottom: blue 4px dotted;
-  border-left: double 3px red;
+/* #content {
+  background-color: grey;
+} */
+/* p.error {
+  color: red;
 }
 
-li {
-  list-style-type: none;
-  text-shadow: 2px 1px lightslategray;
+p.success {
+  color: green;
+} */
+
+a[href*="ejazahmed"] {
+  background-color: peru;
+  color: brown;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 div {
-  border: 2px solid gray;
-  margin: 20px;
+  border: olive 1px solid;
   padding: 20px;
+  margin: 20px;
+}
+
+p {
+  border: inherit;
+  padding: inherit;
 }
